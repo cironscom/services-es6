@@ -26,6 +26,16 @@ export default class Invoice extends CRUDService {
 
 As you can see i have done the `bookInvoice()` method to `book()` from `ìnvoices.ngfactory` to `Invoice.js`
 
+## What is changed?
+
+1. `stocksFactory` => `StockService` (change Factory to Service and make the name in singular instead of plural)
+2. `$http` => `this.$http`
+3. `http://janalex.beta.cirons.com` => `this.apiURL`
+4. `function(name){ ... }` => `(name) => name.data`
+5. Filename: `stocks.ngfactory.js` => `stock.js`
+
+**See full changes in the file: `new/stock.js`**
+
 ## Naming conventions
 
 #### Methods
@@ -47,3 +57,7 @@ example:
 `invoices.ngfactory.js` => `Invoice.js`
 
 `supplier_invoices.ngfactory.js` => `SupplierInvoice.js`
+
+## Register the services
+
+Do this in `index.js` like i have done already for invoice.

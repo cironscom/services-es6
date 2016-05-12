@@ -10,8 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/cironscom/services-es6.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Philip Andersson",
   "bugs": {
     "url": "https://github.com/cironscom/services-es6/issues"
   },
