@@ -13,19 +13,19 @@ export default class Comment extends CRUDService {
     }
 
   comments(id){
-        return this.$http.get(this.apiURL + this.endpoint + '/' + id).then((comments) => comments.data);
+        return this.$http.get(this.apiURL + this.endpoint + '/' + id).then((comment) => comment.data);
     }
  
   add(data){
-        return this.$http.post(this.apiURL + this.endpoint + '/' + data).then((comments) => comments.data);
+        return this.$http.post(this.apiURL + this.endpoint + '/' + data).then((comment) => comment.data);
     }
 
   remove(id){
-        return this.$http.post(this.apiURL + this.endpoint + '/' + id).then((comments) => comments.data);
+        return this.$http.post(this.apiURL + this.endpoint + '/' + id).then((comment) => comment.data);
     }
 
   edit(id, data){
-        return this.$http.post(this.apiURL + this.endpoint + '/' +id, data).then((comments) => comments.data);
+        return this.$http.post(this.apiURL + this.endpoint + '/' +id, data).then((comment) => comment.data);
     }
 
 }
