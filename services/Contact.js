@@ -7,8 +7,4 @@ export default class Contact extends CRUDService {
         this.endpoint = 'contacts';
     }
 
-    count(){
-        return this.$http.get(this.apiURL + this.endpoint + '/'  ).then((contacts) => contacts.data);
-    }
-
 }
