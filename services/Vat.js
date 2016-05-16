@@ -7,9 +7,4 @@ export default class Vat extends CRUDService {
         this.endpoint = 'vat';
     }
 
-    
-    items(){
-        return this.$http.get(this.apiURL + this.endpoint + '/'  ).then((items) => items.data);
-    }
-
 }
