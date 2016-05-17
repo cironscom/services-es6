@@ -18,7 +18,7 @@ export default class Order extends CRUDService {
             date: Date,
             sub_total: Number,
             price_list_id: Number,
-            data: Number,
+            data: String,
             currency: String,
             currency_rate_date: Date,
             currency_rates: Object,

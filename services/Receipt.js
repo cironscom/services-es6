@@ -17,7 +17,7 @@ export default class Receipt extends CRUDService {
             currency: String,
             merchant: String,
             date: Date,
-            delete_at: Date,
+            deleted_at: Date,
             multiple_vat: Number,
             payment: Number,
             identifier: String,

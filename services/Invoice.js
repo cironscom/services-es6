@@ -19,7 +19,7 @@ export default class Invoice extends CRUDService {
             sub_total: Number,
             duedays: Number,
             price_list_id: Number,
-            data: Number,
+            data: String,
             currency: String,
             currency_rate_date: Date,
             currency_rates: Object,
