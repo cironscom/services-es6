@@ -13,7 +13,7 @@ export default class stock extends CRUDService {
             product_id: Number,
             warehouse_id: Number,
             quantity: Number,
-            data: Number,
+            data: String,
             exp_date: Date,
             batch: String,
             LOT: String

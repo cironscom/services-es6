@@ -9,11 +9,10 @@ export default class User extends CRUDService {
          this.schema = {
             id: Number,
             username: String,
-            password: Number,
             email: String,
             created_at: Date,
             updated_at: Date,
-            rememeber_token: Number,
+            rememeber_token: String,
             first_name: String,
             last_name: String,
             nick_name: String,
