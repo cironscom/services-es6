@@ -5,6 +5,40 @@ export default class Invoice extends CRUDService {
     constructor($http){
         super($http);
         this.endpoint = 'invoices';
+      
+     this.schema = {
+            id: Number,
+            created_at: Date,
+            update_at: Date,
+            order_id: Number,
+            contact_id: Number,
+            address_id: Number,
+            notes: String,
+            total_vat: Number,
+            date: Date,
+            sub_total: Number,
+            duedays: Number,
+            price_list_id: Number,
+            data: Number,
+            currency: String,
+            currency_rate_date: Date,
+            currency_rates: Number,
+            current_status_id: Number,
+            credit_invoice: Number,
+            step: String,
+            invoice_no: Number,
+            account_no: Number,
+            due_date: Date,
+            shipping_cost: Number,
+            invoice_fee: Number,
+            billing_address_id: Number,
+            vat_no: String,
+            grand_total: Number,
+            total_profit: Number,
+            booked_at: Date,
+            delete_at: Date
+            
+        };
     }
 
     count(){
