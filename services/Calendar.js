@@ -9,20 +9,20 @@ export default class Calendar extends CRUDService {
     this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             active: Number,
             user_id: Number,
             title: String,
             start: Date,
             end: Date,
             type: String,
-            data: Number,
+            data: String,
             place: String,
             all_day: Number,
             unique_id: Number,
-            delete_at: Date,
+            deleted_at: Date,
             object_id: Number,
-            Object_type: String
+            object_type: String
 
         };
 

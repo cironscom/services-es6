@@ -10,10 +10,10 @@ export default class Vat extends CRUDService {
             pay: Number,
             recive: Number,
             year: Number,
-            mounth: Number,
+            month: Number,
             vat_id: Number,
             created_at: Date,
-            update_at: Date
+            updated_at: Date
 
         };
    

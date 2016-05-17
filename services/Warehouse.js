@@ -8,12 +8,12 @@ export default class Warehouse extends CRUDService {
          this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             name: String,
             address_id: Number,
-            delete_at: Date,
+            deleted_at: Date,
             contact_id: Number,
-            data: Number
+            data: String
 
         };
    

@@ -9,7 +9,7 @@ export default class Contact extends CRUDService {
      this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             title: String,
             first_name: String,
             last_name: String,
@@ -23,7 +23,7 @@ export default class Contact extends CRUDService {
             financial_info_id: Number,
             address_id: Number,
             vat_no: Number,
-            delete_at: Date
+            deleted_at: Date
 
         };
     }

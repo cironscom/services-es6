@@ -8,7 +8,7 @@ export default class Verification extends CRUDService {
          this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
       		date: Date,
       		description: Number,
       		amount: Number,

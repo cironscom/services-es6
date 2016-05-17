@@ -8,15 +8,15 @@ export default class stock extends CRUDService {
     
      this.schema = {
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             id: Number,
             product_id: Number,
             warehouse_id: Number,
             quantity: Number,
             data: Number,
             exp_date: Date,
-            batch: Number,
-            LOT: Number
+            batch: String,
+            LOT: String
                          
         };
    

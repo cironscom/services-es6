@@ -21,7 +21,7 @@ export default class OrderRow extends CRUDService {
             md5: Number,
             vat: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             object_id: Number,
             object_type: String,
             vat_id: Number,

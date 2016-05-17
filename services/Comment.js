@@ -9,10 +9,11 @@ export default class Comment extends CRUDService {
        this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             text: String,
             user_id: Number,
-            url: Number       
+            url: String  
+
         };
     }
 

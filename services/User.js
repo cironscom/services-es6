@@ -12,16 +12,16 @@ export default class User extends CRUDService {
             password: Number,
             email: String,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             rememeber_token: Number,
             first_name: String,
             last_name: String,
             nick_name: String,
             job_title: String,
             image: Number,
-            salary_date: Number,
-            calendar_color: Number
-            
+            salary_date: Date,
+            calendar_color: String
+
         };
    
     }

@@ -9,7 +9,7 @@ export default class Invoice extends CRUDService {
      this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             order_id: Number,
             contact_id: Number,
             address_id: Number,
@@ -22,7 +22,7 @@ export default class Invoice extends CRUDService {
             data: Number,
             currency: String,
             currency_rate_date: Date,
-            currency_rates: Number,
+            currency_rates: Object,
             current_status_id: Number,
             credit_invoice: Number,
             step: String,
@@ -36,7 +36,7 @@ export default class Invoice extends CRUDService {
             grand_total: Number,
             total_profit: Number,
             booked_at: Date,
-            delete_at: Date
+            deleted_at: Date
             
         };
     }

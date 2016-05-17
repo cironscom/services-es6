@@ -9,16 +9,16 @@ export default class Supplier extends CRUDService {
      this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             company_name: String,
             contact_id: Number,
             address_id: Number,
-            company_number: Number,
-            vat_no: Number,
+            company_number: String,
+            vat_no: String,
             default_category: Number,
             default_vat: Number,
             delivery_days: Number,
-            delete_at: Date
+            deleted_at: Date
                            
         };
     

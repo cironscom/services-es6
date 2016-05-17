@@ -9,7 +9,7 @@ export default class Receipt extends CRUDService {
      this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             amount: Number,
             vat: Number,
             user_id: Number,
@@ -24,7 +24,7 @@ export default class Receipt extends CRUDService {
             acoount_no: Number,
             supplier_id: Number,
             employee_id: Number,
-            vat_ammount: Number,
+            vat_amount: Number,
 
         };
    

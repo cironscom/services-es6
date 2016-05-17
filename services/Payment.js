@@ -9,7 +9,7 @@ export default class Payment extends CRUDService {
      this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             user_id: Number,
             object_id: Number,
             object_type: String, 
@@ -18,9 +18,9 @@ export default class Payment extends CRUDService {
             date: Date,
             statement_id: Number,
             statement_title: String,
-            delete_at: Date,
+            deleted_at: Date,
             income_account_no: Number   
-            
+
         };
     }
 }

@@ -9,17 +9,17 @@ export default class Notification extends CRUDService {
      this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             user_id: Number,
             from_user_id: Number,
             text: Number,
             read: Number,
             delivered: Number,
             type: String,
-            html: Number,
-            link: Number,
+            html: String,
+            link: String,
             object_id: Number,
-            object_type: Number
+            object_type: String
 
         };
     }

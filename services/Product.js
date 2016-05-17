@@ -9,10 +9,10 @@ export default class Product extends CRUDService {
      this.schema = {
             id: Number,
             created_at: Date,
-            update_at: Date,
+            updated_at: Date,
             name: String,
             sku: String,
-            reference: Number,
+            reference: String,
             cost_price: Number,
             price: Number,
             image: Number,
